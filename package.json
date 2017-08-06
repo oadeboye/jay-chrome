@@ -1,0 +1,19 @@
+{
+  "name": "jay-chrome",
+  "version": "1.0.0",
+  "description": "Chrome extension that replaces images on any webpage with chosen images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oadeboye/jay-chrome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oadeboye/jay-chrome/issues"
+  },
+  "homepage": "https://github.com/oadeboye/jay-chrome#readme"
+}
