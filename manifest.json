@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Jay Chrome",
+  "version": "1.0",
+  "description": "A Chrome Extension that will replace images on web pages.",
+  "permissions": [
+    "tabs"
+  ],
+  "content_scripts":
+  [
+    {
+      "matches": ["*://*/*"],
+      "js": ["index.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
